@@ -20,6 +20,6 @@ cd Log-Analyser
 ---
 ## USAGE
 ```bash
--navigate to location of the log analyser
--ensure logs that you want analysed is in the same folder as the log analyser, ensure the log file is in .txt format
+echo "Navigate to the location of the log analyser."
+echo "The logs that you want analysed is to be in the same folder as the log analyser, ensure the log file is in .txt format."
 python logsAnalyser {log name}
