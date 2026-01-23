@@ -5,19 +5,6 @@
 
 ---
 
-## ✨ Why LogSleuth?
-
-Logs are truth-tellers, but they rarely speak plainly.
-
-**LogSleuth** helps you:
-- Detect anomalies and suspicious patterns  
-- Filter massive log files without losing context  
-- Turn raw text into actionable insight  
-
-Built with security, performance, and extensibility in mind.
-
----
-
 ## 🧠 Features
 
 - ⚡ High-performance parsing for large log files  
@@ -33,3 +20,5 @@ Built with security, performance, and extensibility in mind.
 ```bash
 git clone https://github.com/USERNAME/REPO.git
 cd REPO
+
+---
