@@ -20,5 +20,9 @@
 ```bash
 git clone https://github.com/USERNAME/REPO.git
 cd REPO
-
+```
 ---
+## USAGE
+```bash
+-navigate to location of the log analyser
+python logsAnalyser {log name}
