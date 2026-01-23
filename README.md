@@ -1,7 +1,7 @@
 # 🔍 Basic logs analyser
 > A fast, flexible log analyser for slicing through noise and surfacing signal.
 
-![GitHub](https://img.shields.io/github/MIT/svdzpg/Log-Analyser)
+![GitHub](https://img.shields.io/github/licence/svdzpg/Log-Analyser)
 
 ---
 
