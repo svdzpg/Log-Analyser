@@ -52,11 +52,12 @@ def main():
                 print(" ".join(log))
             print("\nWarning Logs:")
             for log in stats['warnLogs']:
-                print("".join(log))
+                print(" ".join(log))
 
     except FileNotFoundError:
         print(f"Error: The file '{args.filename}' was not found.")
         sys.exit(1)
 
 if __name__ == "__main__":
+
     main()
