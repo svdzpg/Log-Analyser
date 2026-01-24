@@ -1,0 +1,18 @@
+2026-01-05 12:00:01 INFO  Server started on port 8080
+2026-01-05 12:00:05 INFO  Database connection established
+2026-01-05 12:01:12 WARN  Slow response detected path=/login time=1200ms
+2026-01-05 12:01:15 INFO  User login attempt user=alice ip=192.168.1.10
+2026-01-05 12:01:16 ERROR Login failed user=alice reason=invalid_password
+2026-01-05 12:01:20 INFO  User login attempt user=bob ip=192.168.1.22
+2026-01-05 12:01:21 INFO  User login success user=bob
+2026-01-05 12:02:03 ERROR Database timeout query=SELECT_USERS
+2026-01-05 12:02:05 ERROR Database timeout query=SELECT_USERS
+2026-01-05 12:02:06 ERROR Database timeout query=SELECT_USERS
+2026-01-05 12:02:40 WARN  High memory usage percent=85
+2026-01-05 12:03:10 INFO  Scheduled cleanup task started
+2026-01-05 12:03:12 INFO  Scheduled cleanup task finished
+2026-01-05 12:04:01 INFO  User login attempt user=charlie ip=10.0.0.5
+2026-01-05 12:04:02 ERROR Login failed user=charlie reason=account_locked
+2026-01-05 12:04:05 WARN  Multiple failed logins detected user=charlie
+2026-01-05 12:05:00 INFO  Server health check OK
+2026-01-05 12:05:30 INFO  User logout user=bob
