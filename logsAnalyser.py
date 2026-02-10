@@ -24,7 +24,7 @@ def main():
 
     args = parser.parse_args()
 
-    # Data structure to hold our results (replaces global variables)
+    # Data structure to hold results (replaces global variables)
     stats = {
         'errors': 0,
         'errorLogs': [],
@@ -61,3 +61,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
